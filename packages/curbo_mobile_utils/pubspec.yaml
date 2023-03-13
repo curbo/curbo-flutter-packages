@@ -32,7 +32,7 @@ dependencies:
 
   # UI
   flutter_keyboard_visibility: ^5.3.0 #5.0.3
-  country_code_picker: ^2.0.2
+  country_code_picker: ^3.0.0
   shimmer: ^2.0.0 
   carousel_slider: ^4.1.1 #4.0.0
   photo_view: ^0.14.0 #0.13.0 
