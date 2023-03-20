@@ -51,7 +51,7 @@ final homeScaffoldKey = GlobalKey<ScaffoldState>();
 final searchScaffoldKey = GlobalKey<ScaffoldState>();
 
 class _MyAppState extends State<MyApp> {
-  BlendMode? _mode = BlendMode.overlay;
+  Mode? _mode = Mode.overlay;
 
   @override
   Widget build(BuildContext context) {
@@ -112,17 +112,7 @@ class _MyAppState extends State<MyApp> {
       context: context,
       apiKey: kGoogleApiKey,
       onError: onError,
-      mode: _mode!,
       language: "fr",
-      decoration: InputDecoration(
-        hintText: 'Search',
-        focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20),
-          borderSide: const BorderSide(
-            color: Colors.white,
-          ),
-        ),
-      ),
       components: [Component(Component.country, "fr")],
     );
 

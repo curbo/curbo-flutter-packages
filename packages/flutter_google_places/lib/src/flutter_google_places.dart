@@ -72,6 +72,8 @@ class PlacesAutocompleteWidget extends StatefulWidget {
       context.findAncestorStateOfType<PlacesAutocompleteState>();
 }
 
+enum Mode { overlay, fullscreen }
+
 class _PlacesAutocompleteScaffoldState extends PlacesAutocompleteState {
   @override
   Widget build(BuildContext context) {
