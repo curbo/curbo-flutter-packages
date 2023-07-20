@@ -21,7 +21,7 @@ dependencies:
   url_launcher: ^6.1.5 #6.0.20
 
   # Intl
-  intl: ^0.17.0
+  intl: ^0.18.0
 
   # Device
   package_info_plus: ^1.4.3+1 #1.4.2
